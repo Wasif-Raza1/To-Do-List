@@ -1,0 +1,65 @@
+
+
+
+  /* TO DO LIST ----------------------------------------------------------------*/
+  
+  .add{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #7bc3ee;
+    border: 1px solid #7bc3ee;
+    
+  }
+  .remove{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #7bc3ee;
+    border: 1px solid #7bc3ee;
+    
+  }
+  form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+.form{
+  background-color: #7bc3ee;
+  margin: 5%;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  transform: translateY(-25%);
+  border-radius: 30px;
+  display:none ;
+  
+}
+.form-open{
+  display: block ;
+  padding-left: 300px !important;
+  background-color: #7bc3ee;
+}
+.table{
+  display:table;
+}
+
+#table td{
+  padding-left: 50px;
+  font-weight: 900;
+}
+
+.edit-delete{
+  display: block;
+}
